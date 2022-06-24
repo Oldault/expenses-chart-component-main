@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <title>Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="total-balance">
+      <div class="my-balance">
+        <p>My balance</p>
+        <h4>$921.48</h4>
+      </div>
+      <div class="balance-logo">
+        <img src="./images/logo.svg" alt="Master Card logo">
+      </div>
+    </div>
+
+    <div class="spendings">
+      <div class="chart">
+        <div class="text">
+          <h3>Spending - Last 7 days</h3>
+        </div>
+
+        <div class="amounts">
+          <div class="block mon">
+            <div class="chart-mon amount-block">
+            </div>
+            <p>mon</p>
+          </div>
+          <div class="block tue">
+            <div class="chart-tue amount-block">
+            </div>
+            <p>tue</p>
+          </div>
+          <div class="block wed">
+            <div class="chart-wed amount-block">
+            </div>
+            <p>wed</p>
+          </div>
+          <div class="block thu">
+            <div class="pop-up">
+              <h6>$17.41</h6>
+            </div>
+            <div class="chart-thu amount-block">
+            </div>
+            <p>thu</p>
+          </div>
+          <div class="block fri">
+            <div class="chart-fri amount-block">
+            </div>
+            <p>fri</p>
+          </div>
+          <div class="block sat">
+            <div class="chart-sat amount-block">
+            </div>
+            <p>sat</p>
+          </div>
+          <div class="block sun">
+            <div class="chart-sun amount-block">
+            </div>
+            <p>sun</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="lower-section">
+        <div class="total-spendings">
+          <p>Total this month</p>
+          <h2>$478.33</h2>
+        </div>
+        <div class="spendings-fluctuation">
+          <h4>+2.4%</h4>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+  </main>
+<!--   My balance
+  $921.48
+
+  Spending - Last 7 days
+
+  mon
+  tue
+  wed
+  thu
+  fri
+  sat
+  sun
+
+  Total this month
+  $478.33
+
+  +2.4%
+  from last month
+   -->
+</body>
+</html>

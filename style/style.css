@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F7E9DC;
+    font-family: 'DM Sans', sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    max-height: 500px;
+    width: 450px;
+}
+
+.total-balance {
+    background-color: hsl(9, 89%, 65%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 26px;
+    border-radius: 16px;
+}
+
+.total-balance h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.my-balance {
+    color: #FFFCF7;
+}
+
+.spendings {
+    background-color: #FFFCF7;
+    padding: 20px 26px;
+    border-radius: 16px;
+    margin-top: 16px;
+}
+
+.spendings p {
+    color: hsl(0, 0%, 60%);
+}
+
+.spendings h3 {
+    font-size: 28px;
+    margin-top: 14px;
+}
+
+.amounts {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(40, 100%, 90%);
+    padding: 20px 0px;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+
+.amount-block {
+    width: 45px;
+    border-radius: 5px;
+    background-color: hsl(9, 89%, 65%);
+    transition: all .5s;
+}
+
+.amount-block:hover {
+    background-color: hsl(9, 89%, 75%);
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pop-up {
+    background-color: grey;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 22px;
+    width: 60px;
+    padding: 6px;
+    display: none;
+}
+
+.pop-up h6 {
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* BLOCKS */
+.chart-mon {
+    height: 50px;
+}
+.chart-tue {
+    height: 95px;
+}
+.chart-wed {
+    height: 130px;
+    background-color: hsl(186, 34%, 60%);
+}
+.chart-wed:hover {
+    background-color: hsl(186, 34%, 70%);
+}
+.chart-thu {
+    height: 85px;
+}
+.chart-fri {
+    height: 60px;
+}
+.chart-sat {
+    height: 115px;
+}
+.chart-sun {
+    height: 80px;
+}
+
+.lower-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.total-spendings {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.total-spendings h2 {
+    font-size: 36px;
+}
+
+.spendings-fluctuation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
